@@ -4,7 +4,8 @@
   var r = tds.indexOf(t);
             if (r === -1) {
 				if (t != "") {
-             document.getElementById("noti").innerHTML = "Tài khoản hoặc mã kích hoạt không đúng!";}
+             alert('s');
+					document.getElementById("noti").innerHTML = "Tài khoản hoặc mã kích hoạt không đúng!";}
             } else {
              document.getElementById("noti").innerHTML = "Tài khoản hoặc mã kích hoạt đúng!";
             }
